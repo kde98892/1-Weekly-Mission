@@ -1,70 +1,30 @@
-# Getting Started with Create React App
+## 요구사항
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- [x] 링크를 입력하고 “추가하기” 버튼을 누르면 “폴더에 추가” 모달이 보이나요?
+- [x]  “폴더 추가” 버튼을 누르면 “폴더 추가” 모달이 보이나요?
+- [x]  “공유” 버튼을 누르면 “폴더 공유” 모달이 보이나요?
+- [x] “이름 변경” 버튼을 누르면 “폴더 이름 변경” 모달이 보이나요?
+- [x]  “삭제” 버튼을 누르면 “폴더 삭제” 모달이 보이나요?
+- [x]  케밥 버튼을 누르면 “삭제하기”, “폴더에 추가” 버튼이 있는 팝오버가 보이나요?
+- [x]  팝오버에 있는 “삭제하기” 버튼을 누르면 “링크 삭제” 모달이 보이나요?
+- [x]  팝오버에 있는 “폴더에 추가” 버튼을 누르면 “폴더에 추가” 모달이 보이나요?
+- [x]  “폴더 공유” 모달에서 “카카오톡 아이콘”을 클릭하면 카카오로 공유 폴더 페이지 링크 공유하기 가능한가요?
+- [x]  “폴더 공유” 모달에서 “페이스북 아이콘”을 클릭하면 페이스북으로 공유 폴더 페이지 링크 공유하기 가능한가요?
+- [x]  “폴더 공유” 모달에서 “링크 아이콘”을 클릭하면 클립보드에 공유 폴더 페이지 링크가 복사 되나요?
 
-## Available Scripts
+<br>
 
-In the project directory, you can run:
+## 주요 변경사항
 
-### `npm start`
+- 푸터 하단에 고정
+- 로그인 방식 변경 (자동-> 수동, 로그인 정보 없을 시 로그인 페이지로 이동)
+- 케밥, 모달 제작
+- 공유 기능 추가
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<br>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 스크린샷
 
-### `npm test`
+https://github.com/codeit-bootcamp-frontend/1-Weekly-Mission/assets/144599629/746154eb-54a3-41e3-bdd2-592b1c866328
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![image](https://github.com/codeit-bootcamp-frontend/1-Weekly-Mission/assets/144599629/861fdf41-128e-4cbe-a74f-970f10ea5680)
